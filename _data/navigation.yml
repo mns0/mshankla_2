@@ -1,0 +1,14 @@
+main:
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "PhD Projects"
+    url: /PhDProjects/
+
+  - title: "Publications"
+    url: /about/
+
+  - title: "Outreach"
+    url: /outreach/
+
