@@ -1,13 +1,9 @@
-
 ---
 layout: single
 title:  "Going Back-to-Basics -- Shrinkage Ridge and Lasso using Coordinate Descent from Scratch"
-date:   2020-03-05 12:07:56 -0700
+date:   2020-03-02 12:07:56 -0700
 categories: Shrinkage, Ridge, LASSO, Coordinate Descent
-
 ---
-
-
 
 
 <link rel="stylesheet" type="text/css" href="../semantic/semantic.min.css">
@@ -19,8 +15,11 @@ crossorigin="anonymous"></script>
 </script>
 
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <br>
+
+
 
 
 
