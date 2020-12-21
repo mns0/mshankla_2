@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title:  "Going Back-to-Basics -- Convolutional Neural Network from Scratch"
@@ -8,6 +7,19 @@ categories: Deep Learning, CNN
 ---
 
 
+
+
+<link rel="stylesheet" type="text/css" href="../semantic/semantic.min.css">
+<script
+src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+<script src="../semantic/semantic.min.js">
+</script>
+
+
+
+<br>
 
 
 
