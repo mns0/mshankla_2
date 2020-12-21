@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Going Back-to-Basics -- Shrinkage Ridge and Lasso using Coordinate Descent from Scratch"
+title:  "Going Back-to-Basics -- Shrinkage Ridge and LASSO using Coordinate Descent from Scratch"
 date:   2020-03-02 12:07:56 -0700
 categories: Shrinkage, Ridge, LASSO, Coordinate Descent
 ---
