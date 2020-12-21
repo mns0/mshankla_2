@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Going Back-to-Basics -- Convolutional Neural Network from Scratch"
-date:   2019-03-08 12:07:56 -0700
+date:   2020-03-08 12:07:56 -0700
 categories: Deep Learning, CNN
 
 ---
