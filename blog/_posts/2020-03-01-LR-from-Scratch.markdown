@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Randomized Robust Fitting in Noisy Data: RANSAC and Panamera Stitching from Scratch "
+title:  "Going Back-to-Basics -- Logistic Regression solved using SGD from Scratch"
 date:   2020-03-05 12:07:56 -0700
 categories: Logistic Regression, Stochastic Gradient Descent
 ---
