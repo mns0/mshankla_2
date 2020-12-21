@@ -474,7 +474,7 @@ p_dropped
 
 
 
-![png](./Back-to-Basics-Linear-Methods-of-Regression/test_linear_regression_11_1.png)
+![png](/blog/_posts/Back-to-Basics-Linear-Methods-of-Regression/test_linear_regression_11_1.png)
 
 
 
