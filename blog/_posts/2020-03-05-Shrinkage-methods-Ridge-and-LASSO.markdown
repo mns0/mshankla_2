@@ -227,7 +227,7 @@ plt.axis('tight')
 
 
 
-![png](./Back-to-Basics-Linear-Methods-of-Shrinkage/Shrinkage_6_1.png)
+![png](/assets/images/Shrinkage_6_1.png)
 
 
 
