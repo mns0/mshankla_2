@@ -23,6 +23,21 @@ crossorigin="anonymous"></script>
 
 
 
+![png](/assets/images/ransac/right.jpg)
+![png](/assets/images/ransac/left.jpg)
+
+
+![png](/assets/images/ransac/matched_keypoints.png)
+![png](/assets/images/ransac/merged.png)
+
+
+
+
+
+
+
+
+
 ```python
 import numpy as np
 import matplotlib
