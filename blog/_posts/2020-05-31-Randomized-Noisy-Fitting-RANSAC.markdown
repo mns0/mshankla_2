@@ -23,8 +23,20 @@ crossorigin="anonymous"></script>
 
 
 
-![png](/assets/images/ransac/right.jpg)
-![png](/assets/images/ransac/left.jpg)
+
+
+
+| Left Image | Right Image |
+|-------------|--------------|
+| ![sync](../..//assets/images/ransac/right.jpg) |   ![async](../..//assets/images/ransac/left.jpg)       |
+
+
+
+
+
+
+
+
 
 
 ![png](/assets/images/ransac/matched_keypoints.png)
