@@ -27,7 +27,7 @@ crossorigin="anonymous"></script>
 
 | Left Image | Right Image |
 |-------------|--------------|
-| ![sync](/assets/images/ransac/right.jpg) | ![async](./assets/images/ransac/left.jpg)|
+| ![sync](/assets/images/ransac/right.jpg) | ![async](/assets/images/ransac/left.jpg)|
 
 
 
@@ -96,11 +96,26 @@ $$
 \textbf{0}
 $$
 
-We can solve this system of equations, $$ \mid\mid  AH \mid\mid^2 $$ with $$ \mid\mid H \mid\mid  = 1$$.
+We can solve this system of equations,  $$\mid\midAH\mid\mid^2 $$ with $$ \mid\midH\mid\mid=1$$. An SVD decomposition solves equations of type $$AX=0$$ returning a set of orthonormal basis vectors conveniently enforcing \mid\midX\mid\mid=1$$. 
 
 
 
 
+```python
+##homography mapping givien a set of keypoints
+def homography_mapping(kp1,kp2):
+    #minimize ||AH||^2
+    A = []
+    for idx, pts in enumerate(kp1):
+        x, y = np.array(pts,dtype=float)
+        u, v = np.array(kp2[idx],dtype=float)
+        A.append([x, y, 1, 0, 0, 0, -u*x, -u*y, -u])
+        A.append([0, 0, 0, x, y, 1, -v*x, -v*y, -v])
+    _, _, V = np.linalg.svd(np.array(A))
+    V =  V[-1].reshape((3,3))
+    V = V/V[2,2]
+    return V
+```
 
 
 
@@ -131,24 +146,7 @@ import cv2
 
 
 
-```python
 
-##homography mapping givien a set of keypoints
-def homography_mapping(kp1,kp2):
-    #minimize ||AH||^2
-    A = []
-    for idx, pts in enumerate(kp1):
-        x, y = np.array(pts,dtype=float)
-        u, v = np.array(kp2[idx],dtype=float)
-        A.append([x, y, 1, 0, 0, 0, -u*x, -u*y, -u])
-        A.append([0, 0, 0, x, y, 1, -v*x, -v*y, -v])
-    _, _, V = np.linalg.svd(np.array(A))
-    V =  V[-1].reshape((3,3))
-    V = V/V[2,2]
-    return V
-
-
-```
 
 
 
