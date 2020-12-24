@@ -50,10 +50,22 @@ An object, like a statue or a person, in the underlying scene when viewed from d
 A mapping between two planes can be modeled as
 
 $$
-\begin{pmatrix}
-1 & 2 & 3\\
-a & b & c
-\end{pmatrix}	
+\begin{bmatrix}
+x' \\
+y' \\
+1' \\
+\end{bmatrix}	
+\begin{bmatrix}
+h_{11} & h_{12} & h_{13}\\
+h_{21} & h_{22} & h_{23}\\
+h_{31} & h_{32} & h_{33}
+\end{bmatrix}	
+\begin{bmatrix}
+x \\
+y \\
+1 \\
+\end{bmatrix}	
+
 $$
 
 
