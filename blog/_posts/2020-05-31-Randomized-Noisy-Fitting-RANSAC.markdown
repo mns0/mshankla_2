@@ -96,13 +96,9 @@ $$
 -x_4 & -y_4 & -1 & 0 & 0 & 0 & x_4 x_4' & y_4 x_4' & x_4'\\
 0 & 0 & 0 & -x_4 & -y_4 & -1 &  x_4 y_4' & y_4 y_4'& y_4'\\
 \end{bmatrix}	
-
-\textvf{H}
+\textbf{H}
 =
-
 \textbf{0}
-
-
 $$
 
 
@@ -111,9 +107,7 @@ $$
 
 
 
-
-
-Enforcing $$ ||H|| = 1$$ 
+Enforcing $$ \mid\mid H \mid\mid  = 1$$ 
 
 
 
