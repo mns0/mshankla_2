@@ -15,6 +15,7 @@ crossorigin="anonymous"></script>
 <script src="../semantic/semantic.min.js">
 </script>
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
 <br>
@@ -28,12 +29,32 @@ crossorigin="anonymous"></script>
 
 | Left Image | Right Image |
 |-------------|--------------|
-| ![sync](../..//assets/images/ransac/right.jpg) |   ![async](../..//assets/images/ransac/left.jpg)       |
+| ![sync](/assets/images/ransac/right.jpg) |   ![async](./assets/images/ransac/left.jpg)       |
 
 
 
 
 
+
+
+Consider two images of the same scene from difference perspectives.
+An object, like a statue or a person, in the underlying scene when viewed from different perspectives are related by a geometric transformation. A homography mapping is that transformation, affine and rotational. The image below shows the scene structure
+
+
+| Homography Mapping |
+|-------------|
+| ![sync](/assets/images/ransac/homography_mapping.jpg)     |
+|Source: https://docs.opencv.org/master/d9/dab/tutorial_homography.html|
+
+
+A mapping between two planes can be modeled as
+
+$$
+\begin{pmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{pmatrix}	
+$$
 
 
 
@@ -41,9 +62,6 @@ crossorigin="anonymous"></script>
 
 ![png](/assets/images/ransac/matched_keypoints.png)
 ![png](/assets/images/ransac/merged.png)
-
-
-
 
 
 
