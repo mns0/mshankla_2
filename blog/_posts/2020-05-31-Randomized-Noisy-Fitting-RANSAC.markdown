@@ -96,7 +96,7 @@ $$
 \textbf{0}
 $$
 
-We can solve this system of equations,  $$\mid\mid AH\mid\mid^2 $$ with $$ \mid\mid H\mid\mid=1$$. An SVD decomposition solves equations of type $$AX=0$$ returning a set of orthonormal basis vectors conveniently enforcing \mid\mid X\mid\mid=1$$. 
+We can solve this system of equations,  $$\mid\mid AH\mid\mid^2 $$ with $$ \mid\mid H\mid\mid=1$$. An SVD decomposition solves equations of type $$AX=0$$ returning a set of orthonormal basis vectors conveniently enforcing $$ \mid\mid X\mid\mid=1$$. 
 
 
 
