@@ -25,14 +25,9 @@ crossorigin="anonymous"></script>
 
 
 
-
-
 | Left Image | Right Image |
 |-------------|--------------|
-| ![sync](/assets/images/ransac/right.jpg) |   ![async](./assets/images/ransac/left.jpg)       |
-
-
-
+| ![sync](/assets/images/ransac/right.jpg) | ![async](./assets/images/ransac/left.jpg)|
 
 
 
@@ -101,13 +96,7 @@ $$
 \textbf{0}
 $$
 
-
-
-
-
-
-
-Enforcing $$ \mid\mid H \mid\mid  = 1$$ 
+We can solve this system of equations, $$ \mid\mid  AH \mid\mid^2 $$ with $$ \mid\mid H \mid\mid  = 1$$.
 
 
 
