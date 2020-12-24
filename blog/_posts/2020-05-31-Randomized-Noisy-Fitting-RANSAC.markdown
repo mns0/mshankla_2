@@ -55,7 +55,7 @@ x' \\
 y' \\
 1' \\
 \end{bmatrix}	
-=
+\sim
 \begin{bmatrix}
 h_{11} & h_{12} & h_{13}\\
 h_{21} & h_{22} & h_{23}\\
