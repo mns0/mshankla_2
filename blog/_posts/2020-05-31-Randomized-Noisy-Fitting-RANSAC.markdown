@@ -72,6 +72,7 @@ $$
 
 
 
+
 ![png](/assets/images/ransac/matched_keypoints.png)
 ![png](/assets/images/ransac/merged.png)
 
