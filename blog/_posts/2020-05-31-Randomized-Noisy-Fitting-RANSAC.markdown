@@ -140,7 +140,6 @@ from skimage.transform import warp
 from skimage.transform import SimilarityTransform
 from cv2 import warpPerspective
 import cv2
-
 ```
 
 
@@ -188,10 +187,7 @@ for i in np.arange(8000):
         best_inliers = inliers 
         best_residual = res / best_score
 
-
 print(f"best score: {best_score}, best Hmatrix: {best_h}, best residual: {best_residual}")
-
-
 
 ```
 
@@ -234,7 +230,6 @@ def warp_images(image0, image1, transform):
     im = Image.fromarray((255*merged).astype('uint8'), mode='RGB')
     im.save('stitched_images.jpg')
     im.show()
-
 ```
 
 ```python
