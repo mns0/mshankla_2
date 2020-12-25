@@ -27,7 +27,7 @@ crossorigin="anonymous"></script>
 
 | Left Image | Right Image |
 |-------------|--------------|
-| ![sync](/assets/images/ransac/right.jpg) | ![async](/assets/images/ransac/left.jpg)|
+| ![sync](/assets/images/ransac/left.jpg) | ![async](/assets/images/ransac/right.jpg)|
 
 
 
